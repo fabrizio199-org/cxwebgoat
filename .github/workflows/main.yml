@@ -48,7 +48,7 @@ jobs:
           # Secret key for AST portal authentication
           cx_client_secret: b65f109b-7502-4531-868b-96b0f17d726e
           # Select a Checkmarx Project Name
-          project_name: # optional, default is ${{ github.repository }}
+          project_name: fabrizio_cicd # optional, default is ${{ github.repository }}
           # Branch name
           branch: master # optional, default is ${{ github.ref }}
           # GitHub API Token
