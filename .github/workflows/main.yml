@@ -44,9 +44,9 @@ jobs:
           # Provide the Tenant for AST portal URL
           cx_tenant: dp_wp_account
           # Client ID for AST portal authentication
-          cx_client_id: fabrizio_cicd
+          cx_client_id: CLI_Test
           # Secret key for AST portal authentication
-          cx_client_secret: b65f109b-7502-4531-868b-96b0f17d726e
+          cx_client_secret: 26b3b5fa-eefa-41a0-9885-c5f45a49592e
           # Select a Checkmarx Project Name
           project_name: fabrizio_cicd # optional, default is ${{ github.repository }}
           # Branch name
